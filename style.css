@@ -9,6 +9,12 @@ header{
     justify-content: space-around;
 }
 
+header .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .nav{
     position: fixed;
     top: 0;
