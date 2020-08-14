@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li a{
+    text-decoration: none;
+}
