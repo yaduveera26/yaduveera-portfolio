@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width:1000px) {
+@media (max-width:768px) {
     header {
         display: flex;
         justify-content: space-around;
@@ -57,7 +57,7 @@ body {
     .social-media a {
         text-decoration: none;
         padding: 3px 0px;
-        font-size: 45px;
+        font-size: 25px;
     }
     .fa-facebook {
         color: blue;
@@ -80,10 +80,11 @@ body {
         font-weight: bold;
         font-style: italic;
         font-family: 'Dancing Script', cursive;
-        /* background-image: url('galaxy.jpg'); */
-        /* background-repeat: no-repeat; */
-        /* background-position: center; */
-        /* background-size: cover; */
+        background-image: url('galaxy.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
         left: 30px;
     }
     .skills {
