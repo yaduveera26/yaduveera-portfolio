@@ -32,6 +32,7 @@ body {
         flex-direction: column;
         list-style: none;
         align-items: center;
+        display: none;
         /* border: 1px solid black; */
     }
     header ul li a {
@@ -53,11 +54,12 @@ body {
         /* border: 1px solid black; */
         width: 10%;
         align-items: center;
+        background-color: rgb(252, 197, 206);
     }
     .social-media a {
         text-decoration: none;
         padding: 3px 0px;
-        font-size: 25px;
+        font-size: 30px;
     }
     .fa-facebook {
         color: blue;
@@ -73,7 +75,7 @@ body {
     }
     .ab {
         /* border: 1px solid black; */
-        color: black;
+        color: white;
         text-align: left;
         padding: 5px 5px 5px 33px;
         font-size: 20px;
