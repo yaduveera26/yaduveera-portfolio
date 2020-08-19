@@ -19,20 +19,24 @@ body {
         width: 100%;
         z-index: 1;
         background-color: black;
+        box-shadow: 0px 0px 50px 0px white;
+        /* height: 100vh; */
     }
     header .name {
+        text-transform: uppercase;
         font-size: 25px;
         font-weight: bold;
         letter-spacing: 2px;
         color: white;
     }
     header ul {
+        text-transform: uppercase;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         list-style: none;
         align-items: center;
-        display: none;
+        /* display: none; */
         /* border: 1px solid black; */
     }
     header ul li a {
@@ -54,7 +58,8 @@ body {
         /* border: 1px solid black; */
         width: 10%;
         align-items: center;
-        background-color: rgb(252, 197, 206);
+        background-color: rgb(177, 169, 169);
+        /* background-color: rgb(223, 122, 236); */
     }
     .social-media a {
         text-decoration: none;
@@ -63,15 +68,19 @@ body {
     }
     .fa-facebook {
         color: blue;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px white;
     }
     .fa-instagram {
         color: red;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px white;
     }
     .fa-github {
         color: black;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px white;
     }
     .fab:hover {
-        color: green;
+        /* color: green; */
+        box-shadow: 2px 2px 2px white, -2px -2px 2px black;
     }
     .ab {
         /* border: 1px solid black; */
@@ -82,12 +91,25 @@ body {
         font-weight: bold;
         font-style: italic;
         font-family: 'Dancing Script', cursive;
+        /* left: 30px; */
+        position: relative;
+        background-color: rgba(112, 109, 109, 0.5);
+    }
+    .ab h1 {
+        text-align: center;
+    }
+    .ab .bg {
         background-image: url('galaxy.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-        left: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
     .skills {
         /* border: 1px solid black; */
@@ -97,7 +119,22 @@ body {
         font-size: 20px;
         font-weight: bold;
         letter-spacing: 2px;
-        margin: 0px 30px;
+        /* margin: 10px 0px; */
+        position: relative;
+        background-color: rgba(112, 109, 109, 0.15);
+    }
+    .skills .skibg {
+        background-image: url('nature.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
     }
     .skills .lang,
     .ski,
@@ -105,9 +142,13 @@ body {
     .cname,
     .cppname,
     .pyname,
-    .gitname {
+    .gitname,
+    .htmlname,
+    .cssname {
+        color: white;
         padding: 5px 0px;
-        margin: 4px 0px;
+        text-transform: uppercase;
+        margin: 10px 0px;
         /* border: 1px solid black; */
     }
     .skills .lang,
@@ -115,11 +156,15 @@ body {
         background-color: rgb(3, 103, 233);
         /* color: rgb(66, 63, 63); */
         color: white;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px black, -2px -2px 2px black;
     }
     .skills .ski {
+        border-radius: 15px;
         background-color: rgb(6, 255, 6);
+        box-shadow: 2px 2px 2px black, -2px -2px 2px black;
     }
-    .skills .cimg {
+    /* .skills .cimg {
         height: 30%;
         width: 30%;
         padding: 5px 0px;
@@ -148,13 +193,14 @@ body {
         height: 60%;
         width: 60%;
         padding: 5px 0px;
-    }
+    } */
     #foot {
         /* border: 1px solid black; */
+        font-family: 'Dancing Script', cursive;
         background-color: rgb(229, 248, 56);
         align-items: center;
         text-align: center;
-        font-size: 17px;
+        font-size: 20px;
         font-weight: bold;
         letter-spacing: 2px;
     }
