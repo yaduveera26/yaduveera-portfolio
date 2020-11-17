@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .brand{
+      font-size: xx-large;
+    }
+    .hammenu{
+      display: none;
+      cursor: pointer;
+    }
+    .skills{
+      align-items: flex-start;
+    }
+    @media screen and (max-width:768px) {
+      .hammenu{
+        display:block;
+      }
+      .menu{
+        display:none;
+      }
+      .skills{
+        align-items: center;
+      }
+    }
+    </style>
+</head>
+<body>
+  <div class="navbar w-100 flex-md-row flex-column font-weight-bold">
+    <div class="nav-brand brand text-center w-100">
+      Yadu Veera
+    </div>
+    <div class="list-group flex-md-row flex-column justify-content-between align-items-center navlist menu w-100">
+      <li class="list-group-item border-0 w-100 text-center"><a href="#projects" style="text-decoration:none;color:black;font-size:20px;">projects</a></li>
+      <li class="list-group-item border-0 w-100 text-center"><a href="#skills"   style="text-decoration:none;color:black;font-size:20px;">skills</a></li>
+      <li class="list-group-item border-0 w-100 text-center"><a href="#contact"  style="text-decoration:none;color:black;font-size:20px;">contact</a></li>
+      <li class="list-group-item border-0 w-100 text-center"><a href="#aboutme"  style="text-decoration:none;color:black;font-size:20px;">about me</a></li>
+    </div>
+    <div class="position-absolute hammenu" style="right:20px;top:10px;font-size:30px">
+      <i class="fa fa-bars"></i>
+    </div>
+  </div>
+  <div id="projects" class="projects">
+    <div class="text-center my-3">
+      <h2>Projects</h2>
+    </div>
+    <div class="list-group flex-md-row flex-column justify-content-around align-items-center">
+      <div class="card mb-3 mr-md-2">
+        <div class="card-header text-center">
+          Todo Web App
+        </div>
+        <div class="card-body">
+          <a><img src="" alt="Todo"></a>
+        </div>
+        <div class="card-footer">
+          It's Traditonal Todo app,where we can add todo activities,edit them,delete them.
+        </div>
+      </div>
+
+      <div class="card mb-3 mr-md-2">
+        <div class="card-header text-center">
+          Todo Web App
+        </div>
+        <div class="card-body">
+          <a><img src="" alt="Todo"></a>
+        </div>
+        <div class="card-footer">
+          It's Traditonal Todo app,where we can add todo activities,edit them,delete them.
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header text-center">
+          Todo Web App
+        </div>
+        <div class="card-body">
+          <a><img src="" alt="Todo"></a>
+        </div>
+        <div class="card-footer">
+          It's Traditonal Todo app,where we can add todo activities,edit them,delete them.
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center my-3">
+    <h2>Skills</h2>
+  </div>
+  <div id="skills" class="container-md container-fluid d-flex flex-md-row flex-column font-weight-bold justify-content-around skills my-3">
+    <div class="list-group align-items-center mb-3">
+      <li class="list-group-item border-0">Programming Languages</li>
+      <li class="list-group-item border-0">c</li>
+      <li class="list-group-item border-0">c++</li>
+    </div>
+    <div class="list-group align-items-center mb-3">
+      <li class="list-group-item border-0">Concepts Learned</li>
+      <li class="list-group-item border-0">Data structures</li>
+      <li class="list-group-item border-0">Algorithms</li>
+      <li class="list-group-item border-0">Object Oriented Programming (OOP)</li>
+    </div>
+    <div class="list-group align-items-center mb-3">
+      <li class="list-group-item border-0">Front-End Technologies</li>
+      <li class="list-group-item border-0">HTML</li>
+      <li class="list-group-item border-0">CSS</li>
+      <li class="list-group-item border-0">Bootstrap</li>
+      <li class="list-group-item border-0">Javascript</li>
+    </div>
+    <div class="list-group align-items-center">
+      <li class="list-group-item border-0">Back-End Technologies</li>
+      <li class="list-group-item border-0">Node-JS</li>
+      <li class="list-group-item border-0">Express-JS</li>
+      <li class="list-group-item border-0">MongoDB</li>
+    </div>
+  </div>
+  <div class="container-md container-fluid">
+    <div class="aboutme text-center my-2 font-weight-bold" id="aboutme">
+      <h2>About Me</h2>
+    </div>
+    <div class="list-group flex-row justify-content-around">
+      <li class="list-group-item border-0"><a style="color:black" href="https://github.com/yaduveera26"><i class="fa fa-github" style="font-size:30px;"></i> </a> </li>
+      <li class="list-group-item border-0"><a style="color:brown" href="https://www.codechef.com/users/yaduveera26"><span class="iconify" style="font-size:30px;" data-icon="simple-icons:codechef" data-inline="false"></span></a> </li>
+      <li class="list-group-item border-0"><a style="color:gold" href="https://leetcode.com/yaduveera26/"><span class="iconify" style="font-size:30px;" data-icon="cib:leetcode" data-inline="false"></span></a> </li>
+      <li class="list-group-item border-0"><a style="color:red" href="https://www.instagram.com/__half_bloodprince__/"><i class="fa fa-instagram" style="font-size:30px;"></i> </a> </li>
+    </div>
+  </div>
+  <div class="contaier-md container-fluid">
+    <div class="contact text-center mt-3" id="contact">
+      <h2>Contact</h2>
+      <span class="font-weight-bold" style="font-size:20px"><i class="fa fa-paper-plane text-primary"></i> yaduveera26@gmail.com</span>
+    </div>
+  </div>
+  <script type="text/javascript">
+    let navlist = document.querySelector('.navlist');
+    let hammenu = document.querySelector('.hammenu');
+    hammenu.addEventListener('click',function(){
+      navlist.classList.toggle('menu');
+    });
+  </script>
+</body>
+</html>
